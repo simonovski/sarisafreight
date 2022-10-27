@@ -337,11 +337,11 @@ function AppDemo() {
 export function HeroNew() {
   return (
     <div className="overflow-hidden">
-      <div class="relative overflow-hidden bg-white">
-        <div class="mx-auto">
-          <div class="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
+      <div className="relative overflow-hidden bg-white">
+        <div className="mx-auto">
+          <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
             <svg
-              class="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
+              className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -351,37 +351,37 @@ export function HeroNew() {
             </svg>
 
             <div>
-              <div class="relative px-4 pt-6 sm:px-6 lg:px-8"></div>
+              <div className="relative px-4 pt-6 sm:px-6 lg:px-8"></div>
             </div>
 
-            <main class="mx-auto mt-10 max-w-7xl px-4 sm:mt-8 sm:px-6 md:mt-12 lg:mt-16 lg:px-8 xl:mt-20">
-              <div class="sm:text-center lg:text-left">
-                <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+            <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-8 sm:px-6 md:mt-12 lg:mt-16 lg:px-8 xl:mt-20">
+              <div className="sm:text-center lg:text-left">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                   More{' '}
-                  <span class="block text-indigo-600 xl:inline">
+                  <span className="block text-indigo-600 xl:inline">
                     innovation.{' '}
                   </span>
                   More{' '}
-                  <span class="block text-indigo-600 xl:inline">
+                  <span className="block text-indigo-600 xl:inline">
                     transparency.{' '}
                   </span>
                   More{' '}
-                  <span class="block text-indigo-600 xl:inline">profits.</span>
+                  <span className="block text-indigo-600 xl:inline">profits.</span>
                 </h1>
-                <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                   We are a revenue sharing network built to optimize your
                   freight.
                 </p>
 
                   <div className='mt-8 mb-4'>
-                    <a href="#" class="inline-flex space-x-4">
-                      <span class="rounded bg-indigo-50 px-2.5 py-1 text-sm font-semibold text-indigo-600">
+                    <a href="#" className="inline-flex space-x-4">
+                      <span className="rounded bg-indigo-50 px-2.5 py-1 text-sm font-semibold text-indigo-600">
                         Shippers
                       </span>
-                      <span class="inline-flex items-center space-x-1 text-sm font-medium text-indigo-600">
+                      <span className="inline-flex items-center space-x-1 text-sm font-medium text-indigo-600">
                         <span>Request Pricing</span>
                         <svg
-                          class="h-5 w-5"
+                          className="h-5 w-5"
                           x-description="Heroicon name: mini/chevron-right"
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -398,14 +398,14 @@ export function HeroNew() {
                     </a>
                   </div>
                   <div>
-                    <a href="#" class="inline-flex space-x-4">
-                      <span class="rounded bg-indigo-50 px-2.5 py-1 text-sm font-semibold text-indigo-600">
+                    <a href="#" className="inline-flex space-x-4">
+                      <span className="rounded bg-indigo-50 px-2.5 py-1 text-sm font-semibold text-indigo-600">
                         Carriers
                       </span>
-                      <span class="inline-flex items-center space-x-1 text-sm font-medium text-indigo-600">
+                      <span className="inline-flex items-center space-x-1 text-sm font-medium text-indigo-600">
                         <span>Join our Revenue Network</span>
                         <svg
-                          class="h-5 w-5"
+                          className="h-5 w-5"
                           x-description="Heroicon name: mini/chevron-right"
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -426,9 +426,9 @@ export function HeroNew() {
             </main>
           </div>
         </div>
-        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
-            class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
             src="/images/hero-truck-image.png"
             alt=""
           />
