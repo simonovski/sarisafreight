@@ -199,21 +199,21 @@ export function SecondaryFeatures() {
             <div>
               <div>
                 <img
-                  class="h-11 w-auto bg-rose-100 py-2 px-4 rounded"
+                  className="h-11 w-auto bg-rose-100 py-2 px-4 rounded"
                   src="https://www.sarisafreight.com/wp-content/themes/sarisa/assets/images/logo.svg"
                   alt="Your Company"
                 />
               </div>
               <div className="mt-20">
                 <div>
-                  <a href="#" class="inline-flex space-x-4">
-                    <span class="rounded bg-rose-50 px-2.5 py-1 text-sm font-semibold text-rose-500">
+                  <a href="#" className="inline-flex space-x-4">
+                    <span className="rounded bg-rose-50 px-2.5 py-1 text-sm font-semibold text-rose-500">
                     WELCOME TO SARISA
                     </span>
-                    {/* <span class="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
+                    {/* <span className="inline-flex items-center space-x-1 text-sm font-medium text-rose-500">
                       <span>Just shipped version 0.1.0</span>
                       <svg
-                        class="h-5 w-5"
+                        className="h-5 w-5"
                         x-description="Heroicon name: mini/chevron-right"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -230,21 +230,21 @@ export function SecondaryFeatures() {
                   </a>
                 </div>
                 <div className="mt-6 sm:max-w-xl">
-                  <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                     What We Do
                   </h1>
-                  <h3 class="text-xl font-bold tracking-tight text-gray-600 sm:text-2xl">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-600 sm:text-2xl">
                   We empower and strengthen the connection between shippers and carriers.
                   </h3>
-                  <p class="mt-6 text-xl text-gray-500">
+                  <p className="mt-6 text-xl text-gray-500">
                   We operate a carrier centric portfolio of businesses, founded under a common equity ownership, operating as integrated organizations. This is how we can scale more rapidly and ultimately provide the most efficient freight network possible.
                   </p>
                 </div>
-                <form action="#" class="mt-12 sm:flex sm:w-full sm:max-w-lg">
+                <form action="#" className="mt-12 sm:flex sm:w-full sm:max-w-lg">
                   <div className="mt-4 sm:mt-0 sm:ml-3">
                     <button
                       type="submit"
-                      class="block w-full rounded-md border border-transparent bg-rose-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
+                      className="block w-full rounded-md border border-transparent bg-rose-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
                     >
                       Contact Us
                     </button>
@@ -254,7 +254,7 @@ export function SecondaryFeatures() {
                   <div className="inline-flex items-center divide-x divide-gray-300">
                     <div className="flex flex-shrink-0 pr-5">
                       <svg
-                        class="h-5 w-5 text-yellow-400"
+                        className="h-5 w-5 text-yellow-400"
                         x-description="Heroicon name: mini/star"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -268,7 +268,7 @@ export function SecondaryFeatures() {
                         ></path>
                       </svg>
                       <svg
-                        class="h-5 w-5 text-yellow-400"
+                        className="h-5 w-5 text-yellow-400"
                         x-description="Heroicon name: mini/star"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -282,7 +282,7 @@ export function SecondaryFeatures() {
                         ></path>
                       </svg>
                       <svg
-                        class="h-5 w-5 text-yellow-400"
+                        className="h-5 w-5 text-yellow-400"
                         x-description="Heroicon name: mini/star"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -296,7 +296,7 @@ export function SecondaryFeatures() {
                         ></path>
                       </svg>
                       <svg
-                        class="h-5 w-5 text-yellow-400"
+                        className="h-5 w-5 text-yellow-400"
                         x-description="Heroicon name: mini/star"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -310,7 +310,7 @@ export function SecondaryFeatures() {
                         ></path>
                       </svg>
                       <svg
-                        class="h-5 w-5 text-yellow-400"
+                        className="h-5 w-5 text-yellow-400"
                         x-description="Heroicon name: mini/star"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -325,11 +325,11 @@ export function SecondaryFeatures() {
                       </svg>
                     </div>
                     <div className="min-w-0 flex-1 py-1 pl-5 text-sm text-gray-500 sm:py-3">
-                      <span class="font-medium text-gray-900">
+                      <span className="font-medium text-gray-900">
                         Rated 5 stars
                       </span>{' '}
                       by over{' '}
-                      <span class="font-medium text-rose-500">
+                      <span className="font-medium text-rose-500">
                         500 beta users
                       </span>
                     </div>
